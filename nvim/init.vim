@@ -16,7 +16,9 @@ function! s:load(file) abort
     endif
 endfunction
 
+call s:load('load-plugins')
 call s:load('plugins')
+call s:load('general')
 
 " もし、未インストールものものがあったらインストール
 if dein#check_install()
