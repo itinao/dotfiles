@@ -1,0 +1,5 @@
+.DS_Store
+nvim/dein/.cache
+nvim/dein/repos
+nvim/dein/cache_nvim
+nvim/dein/state_nvim.vim
