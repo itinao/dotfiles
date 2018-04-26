@@ -10,8 +10,14 @@ repo = 'chriskempson/vim-tomorrow-theme'
 [[plugins]] # slimのハイライト
 repo = 'slim-template/vim-slim'
 
+[[plugins]] # HTMLつくーる
+repo = 'mattn/emmet-vim'
+
 [[plugins]] # ES6のハイライト
 repo = 'othree/yajs.vim'
+
+[[plugins]] # typescriptのハイライト
+repo = 'leafgarland/typescript-vim'
 
 [[plugins]] # インデントを見やすく
 repo = 'Yggdroot/indentLine'
@@ -28,5 +34,4 @@ repo = 'vim-airline/vim-airline-themes'
 
 [[plugins]] # ファイルツリー
 repo = 'scrooloose/nerdtree'
-
 
