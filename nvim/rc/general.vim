@@ -19,6 +19,8 @@ set incsearch
 set wrapscan
 " 検索語をハイライト表示
 set hlsearch
+" ESC連打でハイライト解除
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " その他
 " 行番号を表示
