@@ -1,2 +1,1 @@
-# dein-vim 
-my customize vim
+# dotfiles
