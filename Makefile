@@ -10,6 +10,7 @@ dotfiles-link: ## Create dotfiles link
 		ln -sfnv $(curdir)/.gitconfig ~/
 		ln -sfnv $(curdir)/.bashrc ~/
 		ln -sfnv $(curdir)/.bash_profile ~/
+		ln -sfnv $(curdir)/.zprofile ~/
 
 help: ## Self-documented Makefile
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
