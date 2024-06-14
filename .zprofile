@@ -44,6 +44,9 @@ setopt inc_append_history
 bindkey "^R" history-incremental-search-backward
 bindkey "^S" history-incremental-search-forward
 
-# migration .bash_profile
-source ~/.bash_profile
-
+# alias
+alias ls="ls -G"
+alias ll="ls -lG"
+alias la="ls -laG"
+alias vi="nvim"
+alias vim="nvim"

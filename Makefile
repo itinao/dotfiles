@@ -8,8 +8,6 @@ nvim-link: ## Create nvim link
 dotfiles-link: ## Create dotfiles link
 		ln -sfnv $(curdir)/.screenrc ~/
 		ln -sfnv $(curdir)/.gitconfig ~/
-		ln -sfnv $(curdir)/.bashrc ~/
-		ln -sfnv $(curdir)/.bash_profile ~/
 		ln -sfnv $(curdir)/.zprofile ~/
 
 help: ## Self-documented Makefile
